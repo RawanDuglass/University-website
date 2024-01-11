@@ -1,0 +1,284 @@
+body{
+    margin: 0px;
+}
+ /* sec 1 */
+.ImgHome{
+    position: relative;
+}
+
+.ImgHome img {
+    display: inline-block;   
+}
+
+.Img1NavBar{
+    width: 100%;
+    position: fixed;
+    top: -30px;
+    background-color: rgb(216, 201, 201);
+    opacity: 70%;
+    line-height: 60px;  
+    padding-right: 70px;
+    padding-left: 70px;    
+   
+}
+
+.Img1NavBar li:hover{
+    color: red;
+    cursor:grab;
+
+}   
+
+
+
+.Img1NavBar li {
+    display: inline-block ;
+    padding-left: 8px;
+    padding-right: 8px; 
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight:500;
+
+}
+.ImgHTU{
+    position: relative;
+    top : 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50px;
+    display: inline-block;
+}
+
+/* sec 2 */
+.sec-2{
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.sec-2 div{
+    display: inline-block;
+     width: 24%
+}
+
+.sec-2 div img{
+    width: 90%;
+}
+
+/* sec 3 */
+.sec-3 {
+    text-align: center;
+    margin-top: 100px
+}
+
+.sec-3-red{
+    color: red;
+    font-size: 35px
+}
+
+
+
+ /* sec 4 */
+.sec-4{
+    color: red; text-align: center; font-size: 35px; margin-top: 100px;
+}
+
+/*sec 5 */
+
+.sec-5{
+    margin-top: 150px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.sec-5 div {
+    margin-right: -4px; 
+    padding: 10px; 
+    display: inline-block;
+}
+
+.sec-5-1{
+    background-color: slategray;
+    width: 20%;
+}
+
+.sec-5-2{
+    background-color: rgb(6, 24, 43);
+    width: 23%;
+}
+
+.sec-5-3{
+    background-color: rgb(54, 160, 54);
+    width: 23%;
+}
+
+.sec-5-4{
+    background-color: rgb(94, 95, 148);
+    width: 23%;
+}
+
+/*sec 6*/
+.sec-6{
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+.sec-6-text{
+    width: 49%; 
+    display: inline-block;
+    padding-right: 20px;
+    
+}
+
+.sec-6-text-p1{
+    font-size: 40px;
+    color: red
+    
+}
+
+.sec-6-text-p2{
+    font-size: 18px;
+
+}
+
+.sec-6-IMG{
+    width: 48%; 
+    display: inline-block
+}
+
+.sec-6-IMG img {
+    width: 90%;
+}
+
+/*sec 7 */ 
+.sec-7{
+    margin-top: 100px ;
+    padding-left: 50px;
+}
+
+.sec-7-IMG{
+    width: 47%;
+    display: inline-block
+}
+
+.sec-7-IMG img {
+    width: 100%;
+}
+
+.sec-7-txt{
+    width: 47%;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* sec 8 */
+.sec-8{
+    margin-top: 100px;
+    background-color: rgb(233, 231, 219);
+    padding: 30px;
+    
+}
+ /* sec-8-1 */
+.sec-8-1{
+    width: 48%;
+    display: inline-block;    
+}
+
+.sec-8-1 img {
+    width: 100%;
+}
+
+.sec-8-1 h3{
+    text-align: center; color: rgb(36, 32, 32)
+}
+
+/* sec  8-2 */
+.sec-8-2{
+    width: 48%;
+    display: inline-block; 
+    padding-left: 25px;
+    text-align: center;
+}
+
+.sec-8-2 div {
+    width: 100%; display: inline-block
+}
+
+.sec-8-2 div img {
+    width: 20%;
+    display: inline-block;
+}
+
+.sec-8-2 div h4 {
+    width: 70%; 
+    display: inline-block;
+}
+
+.sec-8-2 div h4 a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+@media screen and  (max-width:1000px) and (min-width:200px)  { 
+.Img1NavBar li {
+        display: inline-block; 
+        text-align: center;
+        width: 35%;
+    
+    }}
+
+@media screen and (max-width:800px) and (min-width:550px) {
+.sec-2 div {
+    display: inline-block; 
+    width: 49%;
+}} 
+
+@media screen and (max-width:550px) {
+    .sec-2 div {
+        display: block; 
+        width: 100%;
+    }} 
+
+@media screen and (max-width:800px) and (min-width:550px) {
+    .sec-5 div {
+        display: inline-block; 
+        width: 45%;
+    }} 
+
+@media screen and (max-width:550px) {
+    .sec-5 div {
+        display: block; 
+        width: 95%;
+    }}    
+
+@media screen and (max-width:800px) and (min-width:400px) {
+    .sec-6 div {
+        display: inline-block; 
+        width: 45%;
+    }} 
+ 
+@media screen and (max-width:800px) and (min-width:400px) {
+    .sec-7 div {
+        display: inline-block; 
+        width: 45%;
+    }}
+
+@media screen and (max-width:800px) and (min-width:400px) {
+    .sec-8 div {
+        display: inline-block; 
+        width: 95%;
+    }}
+
+
+
+
+
+
+
+
+
+
+
+
