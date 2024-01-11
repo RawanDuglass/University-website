@@ -1,2 +1,4 @@
 # University-website
-Html , Css 
+HTML 
+CSS 
+https://www.htu.edu.jo/
